@@ -79,6 +79,6 @@ train(
     output_dir="gpt2_finetuned_10ktest",
     overwrite_output_dir=True,
     per_device_train_batch_size=2,
-    num_train_epochs=400,
-    save_steps=14000
+    num_train_epochs=100,
+    save_steps=140000
 )
